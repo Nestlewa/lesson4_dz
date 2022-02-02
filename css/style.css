@@ -1,0 +1,106 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@font-face {
+    font-family: "Verdana";
+    src: url("../fonts/Verdana.woff2") format("woff2"), url("../fonts/Verdana.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Verdana";
+    src: url("../fonts/Verdana-Bold.woff2") format("woff2"), url("../fonts/Verdana-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+body {
+    font-family: "Lato", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.title {
+    text-align: center;
+    color: blueviolet;
+    font-family: Roboto, Verdana, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+#foto-caption {
+    color: rgba(245, 181, 4, 0.973);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+}
+div p {
+    color: skyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+}
+.list-caption,
+.info-caption {
+    color: orangered;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    text-shadow: 3px 3px 3px blue;
+}
+.list > li {
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.list-wrapper > p {
+    color: rgba(255, 0, 212, 0.671);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+[class*="-element"] {
+    color: palegreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+a.link {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+/* =====these two have the same value===== */
+div .link {
+    color: rgb(10, 221, 10);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+.footer-caption + p {
+    color: hotpink;
+}
+.footer-caption {
+    color: indianred;
+    font-size: 20px;
+    font-family: Roboto, Verdana, sans-serif;
+    text-decoration: line-through;
+}
+.footer-caption ~ a {
+    color: mediumaquamarine;
+}
+.menu-footer-container span {
+    color: mediumspringgreen;
+    font-size: 11px;
+}
